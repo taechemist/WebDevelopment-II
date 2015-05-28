@@ -1,8 +1,8 @@
+@media all and (max-width: 500px) {
 @charset "utf-8";
 /* CSS Document */
 html ,body {
-	margin: 0px;
-	
+	margin: 0px;	
 }
 #mainframe {
 	width:100%;
@@ -19,22 +19,27 @@ html ,body {
 	clear:both;
 }
 #logo{
-	background-image:url(images/logo.png);
+	background-image:url(../images/logo.png);
 	width:222px;
 	height:49px;
-	float:left;
-	margin-top:28px;
+	float:none;
+	margin:28px auto 0px auto; 
 }
 #topsearchbox{
 	margin-left: 20px;
 	float:left;
+	width:45%;
+	height:35px;
+	margin-top:35px;
+	display:none;
 }
 #checkout{
-	background-image:url(images/checkoutpic.png);
+	background-image:url(../images/checkoutpic.png);
 	width:207px;
 	height:84px;
 	float:right;
 	margin-top:10.5px;
+	display:none;
 }
 #menubar{
 	width:100%;
@@ -53,8 +58,8 @@ html ,body {
 #banner{
 	height:380px;
 	width:100%;
-	background-color:#FF0004;
-	background-image:url(images/banner1.jpg);
+	background-image:url(../images/banner1.jpg);
 	background-repeat:no-repeat;
 	background-position:center center;
+}
 }

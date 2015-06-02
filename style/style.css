@@ -28,7 +28,9 @@ html ,body {
 #topsearchbox{
 	margin-left: 20px;
 	float:left;
-	width:45%;
+	width:50%;
+	min-width:100px;
+	max-width:458px;
 	height:35px;
 	margin-top:35px;
 }
@@ -43,13 +45,13 @@ html ,body {
 	width:100%;
 	height:50px;
 	float:left;
-	background: #a7cfdf;
-	background: -moz-linear-gradient(top,  #a7cfdf 0%, #23538a 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a7cfdf), color-stop(100%,#23538a));
-	background: -webkit-linear-gradient(top,  #a7cfdf 0%,#23538a 100%);
-	background: -o-linear-gradient(top,  #a7cfdf 0%,#23538a 100%);
-	background: -ms-linear-gradient(top,  #a7cfdf 0%,#23538a 100%);
-	background: linear-gradient(to bottom,  #a7cfdf 0%,#23538a 100%);
+	background:#a7cfdf;
+	background:-moz-linear-gradient(top,  #a7cfdf 0%, #23538a 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#a7cfdf), color-stop(100%,#23538a));
+	background:-webkit-linear-gradient(top,  #a7cfdf 0%,#23538a 100%);
+	background:-o-linear-gradient(top,  #a7cfdf 0%,#23538a 100%);
+	background:-ms-linear-gradient(top,  #a7cfdf 0%,#23538a 100%);
+	background:linear-gradient(to bottom,  #a7cfdf 0%,#23538a 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=0 );
 
 }
@@ -59,4 +61,44 @@ html ,body {
 	background-image:url(../images/banner1.jpg);
 	background-repeat:no-repeat;
 	background-position:center center;
+}
+#maincontainer{
+	width:95%;
+	margin: 50px auto 0px auto;
+	max-width:950px;
+}
+.headtext1{
+	font-family:Arial;
+	font-size:30px;
+	color:#444444;
+	margin-bottom:40px;
+}
+#boxcontainer{
+	width:100%;
+	height:100%;
+}
+.moviebox{
+	width:153px;
+	height:300px;
+	margin-bottom:10px;
+	float:left;
+	margin-left:2px;
+}
+.boxstyle{
+	width:100%;
+	height:100%;
+	text-align:center;
+	transition: all 0.2s ease-out;
+}
+
+.boxstyle:hover{
+	margin-top:-6px;
+	background-color:#f2f2f2;
+	border-radius:5px;
+	text-align:center;
+}
+.pic1style{
+	display:inline-block;
+	margin-top:7px;
+	
 }

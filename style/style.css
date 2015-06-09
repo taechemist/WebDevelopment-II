@@ -126,10 +126,7 @@ html ,body {
 	text-decoration: none;
 	color: #de9f3e;
 }
-.menu .arrow {
-    font-size:11px;
-    line-height:0%;
-}
+
 .menu > ul > li {
     float:left;
     display:inline-block;
@@ -150,32 +147,11 @@ html ,body {
 .menu > ul > li:hover > a, .menu > ul > a {
     background:#000;
 }
-.menu li:hover .sub-menu {
-    z-index:1;
-    opacity:1;
-}
-.sub-menu {
-    width:150%;
-    padding:5px 0px;
-    position:absolute;
-   	top:100%;
-    left:0px;
-    z-index:-1;
-    opacity:0;
-    transition:opacity linear 0.15s;
-    background:#22323f;
-	
-}
-.sub-menu li {
-	display: block;
-	font-size: 16px;
-	margin-left: 5px;
-}
-.sub-menu li a {
-    padding:10px 30px;
-    display:block;
-	text-decoration: none;
-}
+
+
+/* -----------------sign in -------------- */
+
+
 #signinbox {
 	float: right;
 	height: 100%;
@@ -201,7 +177,93 @@ html ,body {
 }
 
 
+/*------------------------- menu2---------------------*/
 
+
+.menu-wrap1{
+	display:none;
+	width:100%;
+}
+
+.clearfix1:after {
+    display:block;
+    clear:both;
+}
+
+.menu1 {
+    width:100%;
+    margin:0px auto;
+}
+.menu1 li {
+	list-style: none;
+	margin-bottom: 0px;
+	margin-left: -40px;
+	margin-right: 40px;
+	text-align:center;
+	margin-top: -1px;
+}
+.menu1 a {
+	transition: all linear 0.15s;
+	color: #FFFFFF;
+	font-family:Arial, sans-serif;
+}
+.menu1 li:hover >  a {
+	text-decoration: none;
+	color: #de9f3e;
+}
+.menu1 .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+.menu1 > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+	font-weight:bold;
+	
+}
+.menu1 > ul > li > a {
+	display: inline-block;
+	padding-bottom: 13px;
+	padding-right: 30px;
+	padding-top: 15px;
+	margin-top: -16px;
+	padding-left: 30px;
+	text-decoration: none;
+}
+.menu1 > ul > li:hover > a, .menu1 > ul > a {
+    background:#000;
+}
+.menu1 li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+.sub-menu {
+    width:150%;
+    padding:5px 0px;
+    position:absolute;
+   	top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    background:#22323f;
+	
+}
+.sub-menu li {
+	display: block;
+	font-size: 16px;
+	margin-left: 5px;
+}
+.sub-menu li a {
+	display: block;
+	text-decoration: none;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 15px;
+	padding-top: 10px;
+}
 
 
 
@@ -261,10 +323,13 @@ html ,body {
 
 @media all and (max-width: 715px) {
 
-.menu > ul > li:nth-child(3) {
-    display:none;
-}
 
+.menu-wrap1{
+	display:run-in;
+}
+.menu-wrap{
+	display:none;
+}
 }
 
 

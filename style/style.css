@@ -148,6 +148,42 @@ html ,body {
 }
 
 
+#bookend {
+	float: right;
+	height: 50%;
+	width: 2px;
+	margin-bottom: 0px;
+	margin-top: -16px;
+}
+
+/* -----------------cart icon -------------- */
+
+
+#carticon {
+	float: right;
+	height: 100%;
+	width: 50px;
+	background-color: #e49e00;
+	margin-bottom: 0px;
+	margin-top: -16px;
+	transition: all linear 0.15s;
+}
+#carticon a{
+	float: right;
+	font-size: 19px;
+	padding-top: 15px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:none;
+	width:100%;
+	height:100%;
+	text-align:center;
+}
+#carticon:hover{
+	background-color:#d98500;
+}
+
+
 /*------------------------- menu2---------------------*/
 
 
@@ -389,7 +425,7 @@ html ,body {
 
 
 
-@media all and (max-width: 715px) {
+@media all and (max-width: 745px) {
 
 .menu-wrap1{
 	display:block;

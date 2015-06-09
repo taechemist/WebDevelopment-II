@@ -134,6 +134,7 @@ html ,body {
     display:inline-block;
     position:relative;
     font-size:19px;
+	font-weight:bold;
 	
 }
 .menu > ul > li > a {
@@ -175,21 +176,32 @@ html ,body {
     display:block;
 	text-decoration: none;
 }
- 
 
+#signinbox {
+	float: right;
+	height: 100%;
+	width: 170px;
+	background-color: #e49e00;
+	margin-bottom: 0px;
+	margin-top: -16px;
+}
 
+#signin {
+	float: right;
+	font-size: 19px;
+	margin-right: 20px;
+	margin-top: 15px;
+	font-weight:bold;
+}
 
+#signin a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
 
-
-
-
-
-
-
-
-
-
-
+#signinbox:hover{
+	background-color:#d98500;
+}
 
 
 

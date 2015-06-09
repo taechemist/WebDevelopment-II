@@ -151,6 +151,37 @@ html ,body {
 	background-color:#d98500;
 }
 
+/* ---------------------- sign in picture ------------- */
+
+#signinbox1 {
+	float: right;
+	height: 100%;
+	width: 70px;
+	background-color: #e49e00;
+	transition: all linear 0.15s;
+	margin-top: -16px;
+	display:none;
+}
+#signinbox1 a{
+	float: right;
+	font-size: 19px;
+	padding-top: 0px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	display:block;
+	padding-top:15px;
+
+}
+
+
+#signinbox1:hover{
+	background-color:#d98500;
+}
+
 /* -----------------|-------------- */
 
 #bookend {
@@ -609,6 +640,11 @@ html ,body {
 	background-position:center center;
 	background-color:#000;
 }
-
+#signinbox{
+	display:none;
+}
+#signinbox1{
+	display:block;
+}
 	
 }

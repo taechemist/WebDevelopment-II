@@ -287,6 +287,7 @@ html ,body {
 }
 
 
+
 /*---------------------- Footer -------------- */
 #footer{
 	width:100%;
@@ -301,6 +302,37 @@ html ,body {
 	margin-top: 28px;
 	margin-left: 50px;
 }
+
+
+/*----------------------- For Product ------------------- */
+
+#leftcontent {
+	width: 25%;
+	float:left;
+}
+.picstyle{
+	width:100%;
+}
+#rightcontent {
+	width: 75%;
+	float: right;
+}
+#fontmovie {
+	text-align:center;
+	font-size:40px;
+	font-weight:bold;
+	font-family:Arial;
+}
+.contentbox {
+	width: 95%;
+	background-color: #f2f2f2;
+	height: 350px;
+	float: right;
+	margin-top:30px;
+	border-radius:5px;
+
+}
+
 
 
 /*---------------------------For 1000px screen-----------------------------------*/

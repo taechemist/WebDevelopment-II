@@ -45,13 +45,237 @@ html ,body {
 	width:100%;
 	height:50px;
 	float:left;
-	background:#a7cfdf;
-	background:-moz-linear-gradient(top,  #a7cfdf 0%, #23538a 100%);
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#a7cfdf), color-stop(100%,#23538a));
-	background:-webkit-linear-gradient(top,  #a7cfdf 0%,#23538a 100%);
-	background:-o-linear-gradient(top,  #a7cfdf 0%,#23538a 100%);
-	background:-ms-linear-gradient(top,  #a7cfdf 0%,#23538a 100%);
-	background:linear-gradient(to bottom,  #a7cfdf 0%,#23538a 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=0 );
-
+	background-color:#22323f;
+	/*border-radius:5px;*/
 }
+#banner{
+	height:380px;
+	width:100%;
+	background-image:url(../images/banner1.jpg);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-color:#000;
+}
+#maincontainer{
+	width:95%;
+	margin: 50px auto 0px auto;
+	max-width:950px;
+}
+.headtext1{
+	font-family:Arial;
+	font-size:30px;
+	color:#444444;
+	margin-bottom:40px;
+}
+#boxcontainer{
+	width:100%;
+	height:100%;
+}
+.moviebox{
+	width:153px;
+	height:300px;
+	margin-bottom:10px;
+	float:left;
+	margin-left:2px;
+}
+.boxstyle{
+	width:100%;
+	height:100%;
+	text-align:center;
+	transition: all 0.2s ease-out;
+}
+
+.boxstyle:hover{
+	margin-top:-6px;
+	background-color:#f2f2f2;
+	border-radius:5px;
+	text-align:center;
+}
+.pic1style{
+	display:inline-block;
+	margin-top:7px;
+}
+
+#footer{
+	width:100%;
+	height:150px;
+	background:#222222;
+}
+#footer-logo{
+	background-image:url(../images/logo-footer.png);
+	width:170px;
+	height:38px;
+	float:left;
+	margin-top:28px;
+}
+
+/* ------------------css for menubar----------------------------- */
+
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+.menu-wrap {
+    width:100%;
+	display:block;
+}
+.menu {
+    width:100%;
+    margin:0px auto;
+}
+.menu li {
+	list-style: none;
+	margin-bottom: 0px;
+	margin-left: -40px;
+	margin-right: 40px;
+	text-align:center;
+	margin-top: -1px;
+}
+.menu a {
+	transition: all linear 0.15s;
+	color: #FFFFFF;
+	font-family:Arial, sans-serif;
+}
+.menu li:hover >  a {
+	text-decoration: none;
+	color: #de9f3e;
+}
+
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+	font-weight:bold;
+	
+}
+.menu > ul > li > a {
+	display: inline-block;
+	padding-bottom: 13px;
+	padding-right: 30px;
+	padding-top: 15px;
+	margin-top: -16px;
+	padding-left: 30px;
+	text-decoration: none;
+}
+.menu > ul > li:hover > a, .menu > ul > a {
+    background:#000;
+}
+
+
+/* -----------------sign in -------------- */
+
+
+#signinbox {
+	float: right;
+	height: 100%;
+	width: 170px;
+	background-color: #e49e00;
+	margin-bottom: 0px;
+	margin-top: -16px;
+	transition: all linear 0.15s;
+}
+#signinbox a{
+	float: right;
+	font-size: 19px;
+	padding-top: 15px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:none;
+	width:100%;
+	height:100%;
+	text-align:center;
+}
+#signinbox:hover{
+	background-color:#d98500;
+}
+
+
+/*------------------------- menu2---------------------*/
+
+
+.menu-wrap1{
+	display:none;
+	width:100%;
+}
+
+.clearfix1:after {
+    display:block;
+    clear:both;
+}
+
+.menu1 {
+    width:100%;
+    margin:0px auto;
+}
+.menu1 li {
+	list-style: none;
+	margin-bottom: 0px;
+	margin-left: -40px;
+	margin-right: 40px;
+	text-align:center;
+	margin-top: -1px;
+}
+.menu1 a {
+	transition: all linear 0.15s;
+	color: #FFFFFF;
+	font-family:Arial, sans-serif;
+}
+.menu1 li:hover >  a {
+	text-decoration: none;
+	color: #de9f3e;
+}
+.menu1 .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+.menu1 > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+	font-weight:bold;
+	
+}
+.menu1 > ul > li > a {
+	display: inline-block;
+	padding-bottom: 13px;
+	padding-right: 30px;
+	padding-top: 15px;
+	margin-top: -16px;
+	padding-left: 30px;
+	text-decoration: none;
+}
+.menu1 > ul > li:hover > a, .menu1 > ul > a {
+    background:#000;
+}
+.menu1 li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+.sub-menu {
+    width:150%;
+    padding:5px 0px;
+    position:absolute;
+   	top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    background:#22323f;
+	
+}
+.sub-menu li {
+	display: block;
+	font-size: 16px;
+	margin-left: 5px;
+}
+.sub-menu li a {
+	display: block;
+	text-decoration: none;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 15px;
+	padding-top: 10px;
+}
+

@@ -49,21 +49,7 @@ html ,body {
 	/*border-radius:5px;*/
 }
 
-<<<<<<< HEAD
-=======
-.boxstyle:hover{
-	margin-top:-6px;
-	background-color:#f2f2f2;
-	border-radius:5px;
-	text-align:center;
-}
-.pic1style{
-	display:inline-block;
-	margin-top:7px;
-	width:139px;
-	height:208px;
-}
->>>>>>> origin/master
+
 
 
 /* ------------------css for menubar----------------------------- */
@@ -97,7 +83,6 @@ html ,body {
 	text-decoration: none;
 	color: #de9f3e;
 }
-
 .menu > ul > li {
     float:left;
     display:inline-block;
@@ -351,11 +336,18 @@ html ,body {
 	margin-top:-6px;
 	background-color:#f2f2f2;
 	border-radius:5px;
-	text-align:center;
 }
 .pic1style{
 	display:inline-block;
 	margin-top:7px;
+	width:139px;
+	height:208px;
+}
+.moviename1{
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	color:#22395e;
 }
 
 

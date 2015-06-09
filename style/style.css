@@ -204,6 +204,7 @@ html ,body {
 
 
 
+
 /*---------------------------For 1000px screen-----------------------------------*/
 
 @media all and (max-width: 1000px) {
@@ -260,7 +261,9 @@ html ,body {
 
 @media all and (max-width: 715px) {
 
-
+.menu > ul > li:nth-child(3) {
+    display:none;
+}
 
 }
 

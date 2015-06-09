@@ -115,6 +115,7 @@ html ,body {
 	margin-bottom: 0px;
 	margin-left: -40px;
 	margin-right: 40px;
+	margin-top: -1px;
 }
 .menu a {
 	transition: all linear 0.15s;
@@ -137,7 +138,7 @@ html ,body {
 }
 .menu > ul > li > a {
 	display: inline-block;
-	padding-bottom: 12px;
+	padding-bottom: 13px;
 	padding-right: 30px;
 	padding-top: 15px;
 	margin-top: -16px;

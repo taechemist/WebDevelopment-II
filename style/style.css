@@ -480,7 +480,7 @@ a {
 }
 
 #buybottom1{
-	width: 62px;
+	width: 100px;
 	height: 30px;
 	background-color: #41688f;
 	border-radius: 5px;
@@ -490,9 +490,8 @@ a {
 	margin-right: auto;
 	margin-top: 7px;
 	font-family: Arial;
-	font-size: 16px;
+	font-size: 15px;
 	margin-left: auto;
-	
 }
 
 #buybottom1 a{

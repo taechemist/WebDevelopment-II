@@ -3,6 +3,9 @@
 html ,body {
 	margin: 0px;	
 }
+a {
+	text-decoration:none;
+}
 #mainframe {
 	width:100%;
 }

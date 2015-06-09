@@ -330,6 +330,10 @@ html ,body {
 	height:100%;
 	text-align:center;
 	transition: all 0.2s ease-out;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	color:#22395e;
 }
 
 .boxstyle:hover{
@@ -343,12 +347,7 @@ html ,body {
 	width:139px;
 	height:208px;
 }
-.moviename1{
-	font-family:Arial;
-	font-size:14px;
-	font-weight:bold;
-	color:#22395e;
-}
+
 
 
 

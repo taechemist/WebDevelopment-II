@@ -509,6 +509,82 @@ a {
 }
 	
 	
+	
+
+/*----------------------- For Sign in page ------------------- */
+	
+#second-bg{
+	padding-top:25px;
+	background-color:#f2f2f2;
+	height:500px;
+}
+#signinphead{
+	width:45%;
+	height:40px;
+	padding-left:25px;
+	padding-right:25px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#FFFFFF;
+	border:1px solid #dedede;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	color:#444444;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	line-height:40px;
+	vertical-align:middle;
+}
+#signinpbody{
+	width:45%;
+	padding-left:25px;
+	padding-right:25px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#FFFFFF;
+	color:#666666;
+	font-family:Arial;
+	font-size:16px;
+	border-left:1px solid #dedede;
+	border-right:1px solid #dedede;
+}
+#signinpfoot{
+	width:45%;
+	padding-left:25px;
+	padding-right:25px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#FFFFFF;
+	padding-top:10px;
+	font-family:Arial;
+	font-size:14px;
+	color:#666666;
+	border:1px solid #dedede;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.signinp-textbox{
+	width:100%;
+	height:25px;
+	margin-top:15px;
+	margin-bottom:20px;
+	font-size:16px;
+	border-radius:5px;
+	border:1px solid #a9a9a9;
+}
+.signinp-button{
+	background-color:#3f7599;
+	color:#FFFFFF;
+	border:1px solid #345c7c;
+	padding:10px 25px 10px 25px;
+	border-radius:5px;
+	float:right;
+}
+.signinp-button:hover{
+	background-color:#235273;
+}
+	
 
 /*---------------------------For 1000px screen(Search Box changes)-----------------------------------*/
 
@@ -549,7 +625,7 @@ a {
 
 
 
-/*---------------------------For 745px screen (menu changes)-----------------------------------*/
+/*---------------------------For 745px screen (menu, signin changes)-----------------------------------*/
 @media all and (max-width: 745px) {
 
 .menu-wrap1{
@@ -557,6 +633,16 @@ a {
 }
 .menu-wrap{
 	display:none;
+}
+/*----------------------- For Sign in page ------------------- */
+#signinphead{
+	width:90%;
+}
+#signinpbody{
+	width:90%;
+}
+#signinpfoot{
+	width:90%;
 }
 }
 
@@ -594,7 +680,7 @@ a {
 
 
 /*-----------------------------For 500px screen---------------------------------*/
-/*-------------------(Search Box logo,banner,footer chabge)---------------------*/
+/*-------------------(Search Box logo,banner,footer,signin chabge)---------------------*/
 @media all and (max-width: 500px) {
 	
 #logo{
@@ -639,6 +725,16 @@ a {
 }
 #signinbox1{
 	display:block;
+}
+.signinp-button{
+	background-color:#3f7599;
+	color:#FFFFFF;
+	border:1px solid #345c7c;
+	padding:10px 25px 10px 25px;
+	border-radius:5px;
+	float:none;
+	width:100%;
+	margin-bottom:10px;
 }
 	
 }

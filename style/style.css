@@ -455,8 +455,8 @@ html ,body {
 }
 
 #buybottom1{
-	width: 22%;
-	height: 55%;
+	width: 62px;
+	height: 30px;
 	background-color: #41688f;
 	border-radius: 5px;
 	text-align: center;
@@ -562,11 +562,9 @@ html ,body {
 #footer{
 	padding-top:10px;
 	padding-bottom:20px;
-
-
 }
 
-
+}
 
 
 

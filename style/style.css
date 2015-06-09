@@ -117,6 +117,7 @@ html ,body {
 }
 .menu-wrap {
     width:100%;
+	display:block;
 }
 .menu {
     width:100%;
@@ -336,9 +337,8 @@ html ,body {
 
 @media all and (max-width: 715px) {
 
-
 .menu-wrap1{
-	display:run-in;
+	display:block;
 }
 .menu-wrap{
 	display:none;

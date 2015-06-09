@@ -542,9 +542,10 @@ html ,body {
 	width: 170px;
 	height: 38px;
 	float: none;
-	margin-top: 25px;
+	margin-top: 20px;
 	margin-left:auto;
 	margin-right:auto;
+	
 }
 #footer-link{
 	float: none;
@@ -552,6 +553,16 @@ html ,body {
 	margin-left:auto;
 	margin-right:auto;
 }
+.text-in-foot{
+	margin-left: auto;
+	margin-right: auto;
+	padding-left:20px;
+	padding-right:20px;
+}
+#footer{
+	padding-top:10px;
+	padding-bottom:20px;
+
 
 }
 

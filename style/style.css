@@ -151,6 +151,7 @@ html ,body {
 	background-color:#d98500;
 }
 
+/* -----------------|-------------- */
 
 #bookend {
 	float: right;
@@ -334,13 +335,46 @@ html ,body {
 	height:150px;
 	background:#222222;
 }
+#footer-frame{
+	height:100%;
+	margin:0px auto 0px auto; 
+	width:95%;
+	max-width:950px;
+}
 #footer-logo{
 	background-image: url(../images/logo-footer.png);
 	width: 170px;
 	height: 38px;
 	float: left;
-	margin-top: 28px;
-	margin-left: 50px;
+	margin-top: 25px;
+}
+#footer-link{
+	float: right;
+	margin-top:25px;
+}
+.text-in-foot{
+	font-family: Arial;
+	font-size: 14px;
+	margin-left: 11px;
+	margin-right: 11px;
+	color:#888888;
+	float:left;
+}
+.text-in-foot a{
+	text-decoration:none;
+	color:#888888;
+	transition: all 0.2s ease-out;
+}
+.text-in-foot a:hover{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+.bookend2{
+	background-image:url(../images/bookend2.jpg);
+	background-repeat:repeat-y;
+	height:17px;
+	width:2px;
+	float:left;
 }
 
 
@@ -451,7 +485,7 @@ html ,body {
 	
 	
 
-/*---------------------------For 1000px screen-----------------------------------*/
+/*---------------------------For 1000px screen(Search Box changes)-----------------------------------*/
 
 @media all and (max-width: 1000px) {
 #topsearchbox{
@@ -472,14 +506,7 @@ html ,body {
 
 
 
-/*---------------------------For 930px screen-----------------------------------*/
-
-
-
-
-
-
-
+/*---------------------------For 930px screen(Search Box changes)-----------------------------------*/
 @media all and (max-width: 930px) {
 #topsearchbox{
 	margin-left: 20px;
@@ -497,14 +524,7 @@ html ,body {
 
 
 
-/*---------------------------For 715px screen-----------------------------------*/
-
-
-
-
-
-
-
+/*---------------------------For 745px screen (menu changes)-----------------------------------*/
 @media all and (max-width: 745px) {
 
 .menu-wrap1{
@@ -515,13 +535,32 @@ html ,body {
 }
 }
 
+/*---------------------------For 675px screen (Footer Changes)-----------------------------------*/
+@media all and (max-width: 675px) {
+#footer-logo{
+	background-image: url(../images/logo-footer.png);
+	width: 170px;
+	height: 38px;
+	float: none;
+	margin-top: 25px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#footer-link{
+	float: none;
+	margin-top:25px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+}
 
 
 
 
-/*---------------------------For 500px screen-----------------------------------*/
 
-
+/*-----------------------------For 500px screen---------------------------------*/
+/*-------------------(Search Box logo,banner,footer chabge)---------------------*/
 @media all and (max-width: 500px) {
 	
 #logo{

@@ -724,6 +724,16 @@ a {
 #signinbox1{
 	display:block;
 }
+/*----------------------- For Sign in page ------------------- */
+#signinphead{
+	width:85%;
+}
+#signinpbody{
+	width:85%;
+}
+#signinpfoot{
+	width:85%;
+}
 .signinp-button{
 	background-color:#3f7599;
 	color:#FFFFFF;

@@ -459,7 +459,6 @@ a {
 
 #buy-box {
 	width: 50%;
-	height: 220px;
 	background-color: #FFF;
 	margin-left: auto;
 	margin-right: auto;
@@ -471,14 +470,12 @@ a {
 	font-family: Arial;
 	font-size: 20px;
 	padding-top: 25px;
-	height:60px;
 }
 
 #buybottom{
 	width: 100%;
 	height: 55px;
 	background-color: #f2f2f2;
-	float: left;
 	margin-top: 17px;
 	border-top: 1px solid #CCC;
 
@@ -671,6 +668,34 @@ a {
 	vertical-align:middle;
 	line-height:100px;
 }
+
+
+/*----------------------- For CART ------------------- */
+
+.table-1{
+	width:50%;
+	float:left;
+}
+.table-2{
+	width:25%;
+	text-align:center;
+	float:left;
+}
+.moviecover{
+	width:30%;
+	min-width:100px;;
+}
+.cartp-button{
+	background-color:#3f7599;
+	color:#FFFFFF;
+	border:1px solid #345c7c;
+	padding:10px 25px 10px 25px;
+	border-radius:5px;
+	float:right;
+}
+.cartp-button:hover{
+	background-color:#235273;
+}
 	
 
 /*---------------------------For 1000px screen(Search Box changes)-----------------------------------*/
@@ -767,7 +792,7 @@ a {
 
 
 /*-----------------------------For 500px screen---------------------------------*/
-/*-------------------(Search Box logo,banner,footer,signin chabge)---------------------*/
+/*-------------------(Search Box logo,banner,footer,signin cart, change)---------------------*/
 @media all and (max-width: 500px) {
 	
 #logo{
@@ -854,5 +879,20 @@ a {
 	margin-right:auto;
 	margin-top:0px;
 }
-	
+/*----------------------- Cart ------------------- */
+.cartp-button{
+	background-color:#3f7599;
+	color:#FFFFFF;
+	border:1px solid #345c7c;
+	padding:10px 25px 10px 25px;
+	border-radius:5px;
+	width:100%;
+}
+/*----------------------- Product ------------------- */
+.pic2style{
+	float:none;
+}
+#price {
+	font-size: 14px;
+}
 }
